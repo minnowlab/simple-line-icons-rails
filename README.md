@@ -1,7 +1,7 @@
 # simple-line-icons-rails
 
 simple-line-icons-rails provides the
-[Simple-Line-Icons](http://graphicburger.com/simple-line-icons-webfont/) web fonts and
+[thesabbir/simple-line-icons](https://github.com/thesabbir/simple-line-icons) web fonts and
 stylesheets as a Rails engine for use with the asset pipeline.
 
 ## Installation
@@ -32,7 +32,7 @@ In your `application.css`, include the css file:
 Then restart your webserver if it was previously running.
 
 Congrats! You now have scalable vector icon support. Pick an icon and check out the
-[Simple Line Icons Webfont](http://graphicburger.com/simple-line-icons-webfont/).
+[thesabbir/simple-line-icons](https://thesabbir.github.io/simple-line-icons/).
 
 ### Sass Support
 
