@@ -7,3 +7,6 @@
 
 ## v0.0.3
 * update .travis.yml
+
+## v0.1.0
+* upgrade simple line icons fonts to v2.3.2
