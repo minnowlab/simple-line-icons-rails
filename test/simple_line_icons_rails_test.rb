@@ -27,11 +27,11 @@ class SimpleLineIconsRailsTest < ActionDispatch::IntegrationTest
 
   test "stylesheets contain asset pipeline references to fonts" do
     get "/assets/simple-line-icons.css"
-    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.eot\?v=2.3.2},  response.body
-    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.eot\?v=2.3.2#iefix}, response.body
-    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.woff\?v=2.3.2},  response.body
-    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.ttf\?v=2.3.2},  response.body
-    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.svg#Simple-Line-Icons\?v=2.3.2},  response.body
+    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.eot\?v=2.4.0},  response.body
+    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.eot\?v=2.4.0#iefix}, response.body
+    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.woff\?v=2.4.0},  response.body
+    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.ttf\?v=2.4.0},  response.body
+    assert_match %r{/assets/Simple-Line-Icons(-\w+)?\.svg#Simple-Line-Icons\?v=2.4.0},  response.body
   end
 
   test "stylesheet is available in a css sprockets require" do

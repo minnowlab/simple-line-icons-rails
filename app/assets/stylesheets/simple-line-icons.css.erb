@@ -6,16 +6,19 @@
 
 @font-face {
 	font-family: 'Simple-Line-Icons';
-	src:url('<%= font_path('Simple-Line-Icons.eot') %>?v=2.3.2');
-	src:url('<%= font_path('Simple-Line-Icons.eot') %>?v=2.3.2#iefix') format('embedded-opentype'),
-		url('<%= font_path('Simple-Line-Icons.ttf') %>?v=2.3.2') format('truetype'),
-		url('<%= font_path('Simple-Line-Icons.woff') %>?v=2.3.2') format('woff'),
-		url('<%= font_path('Simple-Line-Icons.woff2') %>?v=2.3.2') format('woff2'),
-		url('<%= font_path('Simple-Line-Icons.svg') %>#Simple-Line-Icons?v=2.3.2') format('svg');
+	src:url('<%= font_path('Simple-Line-Icons.eot') %>?v=2.4.0');
+	src:url('<%= font_path('Simple-Line-Icons.eot') %>?v=2.4.0#iefix') format('embedded-opentype'),
+		url('<%= font_path('Simple-Line-Icons.ttf') %>?v=2.4.0') format('truetype'),
+		url('<%= font_path('Simple-Line-Icons.woff') %>?v=2.4.0') format('woff'),
+		url('<%= font_path('Simple-Line-Icons.woff2') %>?v=2.4.0') format('woff2'),
+		url('<%= font_path('Simple-Line-Icons.svg') %>#Simple-Line-Icons?v=2.4.0') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-
+/*
+ Use the following CSS code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+*/
 .icon-user,
 .icon-people,
 .icon-user-female,
@@ -52,6 +55,7 @@
 .icon-plus,
 .icon-minus,
 .icon-close,
+.icon-event,
 .icon-exclamation,
 .icon-organization,
 .icon-trophy,
@@ -201,7 +205,9 @@
 .icon-social-spotify,
 .icon-social-stumbleupon,
 .icon-social-youtube,
-.icon-social-dropbox {
+.icon-social-dropbox,
+.icon-social-vkontakte,
+.icon-social-steam {
   font-family: 'simple-line-icons';
   speak: none;
   font-style: normal;
@@ -320,6 +326,9 @@
 }
 .icon-close:before {
   content: "\e082";
+}
+.icon-event:before {
+  content: "\e619";
 }
 .icon-exclamation:before {
   content: "\e617";
@@ -770,4 +779,10 @@
 }
 .icon-social-dropbox:before {
   content: "\e00c";
+}
+.icon-social-vkontakte:before {
+  content: "\e618";
+}
+.icon-social-steam:before {
+  content: "\e620";
 }
