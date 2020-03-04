@@ -10,3 +10,6 @@
 
 ## v0.1.0
 * upgrade simple line icons fonts to v2.3.2
+
+## v0.1.6
+* support all Rails 6 versions
