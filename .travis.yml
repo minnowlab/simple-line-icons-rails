@@ -2,16 +2,21 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
-  - 2.2.5
-  - 2.3.1
+  - 2.7.8
+  - 3.0.7
+  - 3.1.7
+  - 3.2.9
+  - 3.3.9
+  - 3.4.7
 gemfile:
   - Gemfile
-  - gemfiles/rails-4.1.gemfile
-  - gemfiles/rails-4.2.gemfile
-  - gemfiles/rails-5.0.gemfile
+  - gemfiles/rails-6.0.gemfile
+  - gemfiles/rails-7.0.gemfile
+  - gemfiles/rails-7.1.gemfile
+  - gemfiles/rails-7.2.gemfile
   - gemfiles/rails-master.gemfile
 matrix:
   include:
-    - rvm: 2.1.9
-      gemfile: gemfiles/rails-3.2.gemfile
+    - rvm: 3.3.9
+    - gemfiles/rails-7.2.gemfile
   fast_finish: true
